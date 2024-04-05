@@ -5,5 +5,6 @@ The Bash script provided here offers a solution tailored for maintaining the ava
 Requirements:
 
 1. Install screen (apt install screen)
-2. Already running avail light client in screen session named "avail" 
+2. Already running avail light client in screen session named "avail"
+3. Remember to save your Seed phrase in other directory (cat .avail/identity/identity.toml) before running this script
 
