@@ -11,7 +11,7 @@ while true; do
     if [[ $screen_output != *"Cannot process block: Failed to connect any appropriate working node"* ]]; then
         # Command is not running or encountered an error, execute it
         echo "Command not running or encountered an error. Executing..."
-        screen -S avail -X stuff $'curl -sL1 avail.sh | bash -s -- --identity /root/avail-light-client/identity.toml\n'
+        screen -S avail -X stuff $'curl -sL1 avail.sh | bash\n'
     else
         # Command is running fine, print status
         echo "Command is running fine."
